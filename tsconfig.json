@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/api/*": ["src/api/*"],
+      "@/components/*": ["src/components/*"],
+      "@/contexts/*": ["src/contexts/*"],
+      "@/img/*": ["public/img/*"],
+      "@/lib/*": ["src/libs/*"],
+      "@/pages/*": ["pages/*"],
+      "@/public/*": ["public/*"],
+      "@/styles/*": ["public/styles/*"],
+      "@/views/*": ["src/views/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "types": []
+  },
+  "include": [".next/types/**/*.ts", "pages/**/*.ts", "pages/**/*.tsx", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "./node_modules", "./node_modules/*", "./node_modules/@types/node/index.d.ts"]
+}
