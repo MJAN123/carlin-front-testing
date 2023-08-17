@@ -6,10 +6,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link href="/img/icon.svg" rel="icon" />
-          <meta
-            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-            name="viewport"
-          />
+
           <link href="https://fonts.googleapis.com" rel="preconnect" />
           <link crossOrigin="true" href="https://fonts.gstatic.com" rel="preconnect" />
           <link
