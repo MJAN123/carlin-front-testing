@@ -42,23 +42,25 @@ const Animation = ({
     <>
       <div
         ref={ref}
-        style={{
-          transform: inFrame
-            ? "translateY(0)"
-            : type === AnimationType.Fade
-            ? "translateY(20px)"
-            : type === AnimationType.Down
-            ? "translateY(40px)"
-            : type === AnimationType.Right
-            ? "translateX(40px)"
-            : type === AnimationType.Up
-            ? "translateY(-40px)"
-            : type === AnimationType.Left
-            ? "translateX(-40px)"
-            : "translateY(0)",
-          opacity: inFrame ? 1 : 0,
-          transitionDelay: `${delay}ms`
-        }}
+        style={
+          {
+            // transform: inFrame
+            //   ? "translateY(0)"
+            //   : type === AnimationType.Fade
+            //   ? "translateY(20px)"
+            //   : type === AnimationType.Down
+            //   ? "translateY(40px)"
+            //   : type === AnimationType.Right
+            //   ? "translateX(40px)"
+            //   : type === AnimationType.Up
+            //   ? "translateY(-40px)"
+            //   : type === AnimationType.Left
+            //   ? "translateX(-40px)"
+            //   : "translateY(0)",
+            // opacity: inFrame ? 1 : 0,
+            // transitionDelay: `${delay}ms`
+          }
+        }
         className="tr-600 w-full"
       >
         {children}
