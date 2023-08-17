@@ -38,6 +38,7 @@ const Animation = ({
     }
   }, [])
 
+  console.log(delay, type, inFrame)
   return (
     <>
       <div
