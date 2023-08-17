@@ -6,13 +6,12 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link href="/img/icon.svg" rel="icon" />
-
-          <link href="https://fonts.googleapis.com" rel="preconnect" />
-          <link
-            crossOrigin="true"
-            href="https://fonts.gstatic.com"
-            rel="preconnect"
+          <meta
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+            name="viewport"
           />
+          <link href="https://fonts.googleapis.com" rel="preconnect" />
+          <link crossOrigin="true" href="https://fonts.gstatic.com" rel="preconnect" />
           <link
             href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700;900&display=swap"
             rel="stylesheet"
